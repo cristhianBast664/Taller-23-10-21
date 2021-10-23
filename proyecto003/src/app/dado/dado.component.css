@@ -1,0 +1,12 @@
+.forma{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+div img{
+  width: 110px;
+  height: 110px;
+
+}

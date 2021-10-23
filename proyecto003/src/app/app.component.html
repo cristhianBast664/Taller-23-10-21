@@ -1,0 +1,28 @@
+<div class="container contenedor">
+  <div class="row text-center">
+    <div class="col">
+      <app-dado #dado1></app-dado>
+    </div>
+    <div class="col">
+      <app-dado #dado2></app-dado>
+    </div>
+    <div class="col">
+      <app-dado #dado3></app-dado>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col">
+      <button type="button" (click)="dado1.cambiar()" class="btn btn-primary">Cambiar dado <b>1</b></button><br><br>
+
+    </div>
+    <div class="col">
+      <button (click)="dado2.cambiar()" class="btn btn-primary">Cambiar dado <b>2</b></button><br><br>
+    </div>
+    <div class="col">
+      <button (click)="dado3.cambiar()" class="btn btn-primary">Cambiar dado <b>3</b></button>
+    </div>
+  </div>
+</div>
+
+
+
